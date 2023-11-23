@@ -1,0 +1,12 @@
+Source: ros-humble-data-tamer
+Section: misc
+Priority: optional
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-data-tamer-msgs, ros-humble-mcap-vendor, ros-humble-rclcpp, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-data-tamer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-data-tamer-msgs, ros-humble-mcap-vendor, ros-humble-rclcpp, ros-humble-ros-workspace
+Description: DataTamer data logging library
